@@ -1,0 +1,39 @@
+body {
+
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    height: 300px;
+    justify-content: center;
+    margin: 250px auto;
+    background-color: lightgreen;
+    width: 300px;
+    align-items: center;
+}
+
+#login {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#password, .input {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#submit {
+    width: 100px;
+}
+
+
+#ifWrong {
+    color: red;
+    font-weight: bold;
+}
+
+#tooShort {
+    font-weight: bold;
+}
